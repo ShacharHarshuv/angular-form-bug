@@ -1,0 +1,17 @@
+.init-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background: #1976d2;
+  color: white;
+  cursor: pointer;
+}
+
+.init-button:hover:not(:disabled) {
+  background: #e65100;
+}
+
+.init-button:disabled {
+  background: #9e9e9e;
+  cursor: not-allowed;
+}
